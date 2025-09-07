@@ -1,3 +1,5 @@
 import streamlit as st
 st.title("Software Defined Radio Server")
-st.subheader("Roanoke Valley Governor's School")
+def homepage():
+  st.subheader("Roanoke Valley Governor's School")
+homepage()
