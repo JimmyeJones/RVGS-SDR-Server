@@ -4,7 +4,7 @@ col1.image("https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/
 col3.subheader("Roanoke Valley Governor's School")
 
 col1, col2, col3 = st.columns([1,2,1])
-col2.title("Software Defined Radio Server")
+col2.write("Software Defined Radio Server")
 
 col1, col2, col3, col4 = st.columns(4)
 if col1.button("Home", width="stretch"):
