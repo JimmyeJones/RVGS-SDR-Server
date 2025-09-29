@@ -11,7 +11,7 @@ if col4.button("About", width="stretch"):
   page = "about"
 try:
   page
-except KeyError:
+except NameError:
   page = "home"
 st.text(page)
 def homepage():
