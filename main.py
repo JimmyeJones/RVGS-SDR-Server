@@ -9,6 +9,11 @@ if col3.button("Satellite Viewer", width="stretch"):
   page = "image_viewer"
 if col4.button("About", width="stretch"):
   page = "about"
+try page:
+  None
+except KeyError:
+  page = "home"
+st.text(page)
 def homepage():
   st.subheader("Roanoke Valley Governor's School")
 def connect():
