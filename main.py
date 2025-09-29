@@ -5,7 +5,7 @@ if col1.button("Home", width="stretch"):
   page = "home"
 if col2.button("Connect", width="stretch"):
   page = "connect"
-if col3.button("Satellite Viewer"):
+if col3.button("Satellite Viewer", width="stretch"):
   page = "image_viewer"
 if col4.button("About", width="stretch"):
   page = "about"
