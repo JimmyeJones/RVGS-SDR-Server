@@ -10,7 +10,7 @@ if col3.button("Satellite Viewer", width="stretch"):
 if col4.button("About", width="stretch"):
   page = "about"
 try:
-  page
+  str(page)
 except NameError:
   page = "home"
 st.text(page)
