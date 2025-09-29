@@ -3,7 +3,7 @@ col1, col2, col3 = st.columns(3)
 col1.image("https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1710281903/rvgsk12vaus/drpn8vmnyao4u7eydlxk/RVGSBanner.png")
 col3.subheader("Roanoke Valley Governor's School")
 
-col1, col2, col3 = st.columns([1,2,1])
+col1, col2, col3 = st.columns([2,2,2])
 col2.write("Software Defined Radio Server")
 
 col1, col2, col3, col4 = st.columns(4)
