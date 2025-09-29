@@ -14,5 +14,5 @@ def homepage():
 def connect():
   st.title("Connect")
 def image_viewer():
-  
+  st.title("Satellite Image Viewer")
 
