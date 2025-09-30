@@ -12,7 +12,7 @@ if col1.button("Home", width="stretch"):
   st.session_state['page'] = 'home'
 if col2.button("Connect", width="stretch"):
   st.session_state['page'] = 'connect'
-col3.link_button("Satellite Viewer", "sdr.jalbert.app", width="stretch")
+col3.link_button("Satellite Viewer", "https://sdr.jalbert.app", width="stretch")
 if col4.button("About", width="stretch"):
   st.session_state['page'] = 'about'
 
