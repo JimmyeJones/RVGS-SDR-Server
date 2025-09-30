@@ -12,8 +12,7 @@ if col1.button("Home", width="stretch"):
   st.session_state['page'] = 'home'
 if col2.button("Connect", width="stretch"):
   st.session_state['page'] = 'connect'
-if col3.button("Satellite Viewer", width="stretch"):
-  st.session_state['page'] = 'image_viewer'
+if col3.link_button("Satellite Viewer", "sdr.jalbert.app", width="stretch")
 if col4.button("About", width="stretch"):
   st.session_state['page'] = 'about'
 
@@ -23,6 +22,12 @@ def homepage():
   st.subheader("Roanoke Valley Governor's School")
 def connect():
   st.title("Connect")
-def image_viewer():
-  st.title("Satellite Image Viewer")
+def about():
+  st.title("About this site")
 
+if st.session_state['page'] == 'home':
+    homepage()
+elif st.session_state['page'] == 'connect':
+    connect()
+elif st.session_state['page'] == 'about':
+    about()
