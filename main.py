@@ -18,6 +18,7 @@ try:
 except NameError:
   page = "home"
 st.text(page)
+st.button("test")
 def homepage():
   st.subheader("Roanoke Valley Governor's School")
 def connect():
