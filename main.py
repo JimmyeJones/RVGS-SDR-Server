@@ -18,9 +18,9 @@ if col4.button("About", width="stretch"):
 st.text(st.session_state['page'])
 st.button("test")
 def homepage():
-  st.subheader("Roanoke Valley Governor's School")
+  st.subheader("Welocme to the RVGS SDR Server Site!")
 def connect():
-  st.title("Connect")
+  st.title("Connect to an SDR")
 def about():
   st.title("About this site")
 
