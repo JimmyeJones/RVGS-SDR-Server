@@ -1,6 +1,6 @@
 import streamlit as st
 col1, col2, col3 = st.columns(3)
-col1.image("RVGSBanner.webp")
+col1.image("RVGSBanner.webp", caption="Roanoke Valley Governor's School")
 col1.write('''<p style="font-size:15px;">Roanoke Valley Governor's School</p>''', unsafe_allow_html=True)
 col3.write('<p style="font-size:25px;">Software Defined Radio Server</p>', unsafe_allow_html=True)
 
