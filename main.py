@@ -18,7 +18,7 @@ if col4.button("About", width="stretch"):
 st.text(st.session_state['page'])
 st.button("test")
 def homepage():
-  st.subheader("Welocme to the RVGS SDR Server Site!")
+  st.subheader("Welcome to the RVGS SDR Server Site!")
 def connect():
   st.title("Connect to an SDR")
 def about():
