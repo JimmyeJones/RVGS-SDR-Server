@@ -20,7 +20,7 @@ st.button("test")
 def homepage():
   st.subheader("Welcome to the RVGS SDR Server Site!")
 def connect():
-    file = open("
+    file = open("data.db")
     st.title("Connect to an SDR")
 def about():
   st.title("About this site")
