@@ -1,4 +1,8 @@
 import streamlit as st
+st.set_page_config(
+    layout="wide",
+    page_title="RVGS SDR Server"
+)
 col1, col2, col3 = st.columns(3)
 col1.image("RVGSBanner.webp", caption="Roanoke Valley Governor's School")
 col2.markdown("<h1 style='text-align: center;'>Software Defined Radio Server</h1>", unsafe_allow_html=True)
