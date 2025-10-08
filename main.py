@@ -1,7 +1,7 @@
 import streamlit as st
 col1, col2, col3 = st.columns(3)
 col1.image("RVGSBanner.webp", caption="Roanoke Valley Governor's School")
-col3.markdown("<h1 style='text-align: center;'>Your Centered Title Here</h1>", unsafe_allow_html=True)
+col2.markdown("<h1 style='text-align: center;'>Software Defined Radio Server</h1>", unsafe_allow_html=True)
 
 if 'page' not in st.session_state:
     st.session_state['page'] = 'home'
